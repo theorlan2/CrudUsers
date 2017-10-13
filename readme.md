@@ -1,8 +1,13 @@
-[![Fat-Free Framework](ui/images/logo.png)](http://fatfree.sf.net/)
+ 
+##Crud Users
+Aplicacion de Crud User, en la que se pueden ver, crear y actualizar usuarios.
 
-**A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!**
+##Aspectos Tecnicos
+La Aplicacion esta desarrollada con el Framework Fat-free en PHP, en JS Mithril.js y SCSS, se utilizaron estos Frameworks por la agilidad y rapides que se necesitaba la creacion de la aplicacion.
 
-[![Flattr this project](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=phpfatfree&url=https://github.com/bcosca/fatfree)
+-Las Rutas de la Aplicacion estan definidas en el Archivo Index.php
+-En la carpeta App\Controllers , estan los controladores de la aplicacion
+-En la carpeta ui\src\ , estan los archivos del Frond End de la aplicacion
 
-Condensed in a single ~65KB file, F3 (as we fondly call it) gives you solid foundation, a mature code base, and a no-nonsense approach to writing Web applications. Under the hood is an easy-to-use Web development tool kit, a high-performance URL routing and cache engine, built-in code highlighting, and support for multilingual applications. It's lightweight, easy-to-use, and fast. Most of all, it doesn't get in your way.
+
 
