@@ -1,0 +1,29 @@
+
+Todo:
+  ☐ Login
+  
+  Api:
+    ✔ Usuarios /users
+    ✔ Usuario /user @GET
+    ✔ Usuario Add /user @POST
+    ✔ Usuario edit /user @PUT
+    ✔ Usuario delet /user @DELETE
+    
+    El diseño de la aplicación en general será valorada significativamente.
+    
+    • Deben utilizar diferente tipo de inputs en los formularios (radio y datepicker, etc)
+    
+    • Las peticiones con el servidor deben ser solicitadas vía ajax(
+      ✔ Login
+      ☐ Cerrar Sesion
+      ✔ Listar
+      ✔ Registro
+      ☐ Edicion 
+      ☐ Borrado
+  
+  • El usuario debe recibir respuesta de cualquier acción positiva o negativa al interactuar con la aplicación.
+  
+  ✔ • Los usuarios que no estan logeados no podran ver, editar o borrar usuarios hasta que tengan un sesión iniciada.
+
+
+

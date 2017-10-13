@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "webpack-scss-postcss-babel-setup",
+        "scope": null,
+        "escapedName": "webpack-scss-postcss-babel-setup",
+        "name": "webpack-scss-postcss-babel-setup",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Applications/MAMP/htdocs/PruebaIkea"
+    ]
+  ],
+  "_from": "webpack-scss-postcss-babel-setup@latest",
+  "_id": "webpack-scss-postcss-babel-setup@1.0.6",
+  "_inCache": true,
+  "_location": "/webpack-scss-postcss-babel-setup",
+  "_nodeVersion": "7.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/webpack-scss-postcss-babel-setup-1.0.6.tgz_1487436975808_0.5225506089627743"
+  },
+  "_npmUser": {
+    "name": "min1max",
+    "email": "anana.duspara@gmail.com"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "webpack-scss-postcss-babel-setup",
+    "scope": null,
+    "escapedName": "webpack-scss-postcss-babel-setup",
+    "name": "webpack-scss-postcss-babel-setup",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/webpack-scss-postcss-babel-setup/-/webpack-scss-postcss-babel-setup-1.0.6.tgz",
+  "_shasum": "a3a0bbc20ccdeb7b25111ae495fd5756b7b81924",
+  "_shrinkwrap": null,
+  "_spec": "webpack-scss-postcss-babel-setup",
+  "_where": "/Applications/MAMP/htdocs/PruebaIkea",
+  "author": {
+    "name": "Ana Duspara"
+  },
+  "bugs": {
+    "url": "https://github.com/username/repository/issues"
+  },
+  "dependencies": {
+    "mithril": "^1.1.4"
+  },
+  "description": "This is quick setup for webpack 2, sass, post-css, file-loader and babel.",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.0",
+    "file-loader": "^0.10.0",
+    "node-sass": "^4.5.0",
+    "postcss": "^5.2.14",
+    "postcss-loader": "^1.3.1",
+    "sass-loader": "^6.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "a3a0bbc20ccdeb7b25111ae495fd5756b7b81924",
+    "tarball": "https://registry.npmjs.org/webpack-scss-postcss-babel-setup/-/webpack-scss-postcss-babel-setup-1.0.6.tgz"
+  },
+  "homepage": "https://github.com/username/repository#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "min1max",
+      "email": "anana.duspara@gmail.com"
+    }
+  ],
+  "name": "webpack-scss-postcss-babel-setup",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --hot --open --info",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.6"
+}

@@ -1,0 +1,47 @@
+@import '../../../scss/style.scss';
+
+.cont_form_add {
+
+    .titulo {
+        font-family: $font;
+		font-weight: 100;
+		color: #444;
+        text-align: left;
+        font-size: 20px;
+        margin: 10px auto;
+    }
+
+    .cont_center_form {
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+        .input_form {
+            position: relative;
+            width: 100%;
+            padding: 10px;
+            border: none;      
+            background-color: #ECEFF1;
+            margin: 5px auto;
+            text-align: left;
+        }
+        .radio_form {
+            position: relative;
+            float: left;
+            margin: 0 5px;
+        }
+        p {
+            text-align:left;
+            font-family: $font;
+            font-weight: 300;
+            margin-top: 10px;
+        }
+        .p_error {
+            font-size: 12px;
+            color: #e45;
+            font-weight: normal;
+            display: none;
+        }
+        
+    }
+
+}

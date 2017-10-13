@@ -1,0 +1,109 @@
+/* 
+========================= 
+=========================
+Dany Orlando Santos Morel
+=========================
+=========================
+-------------------------------
+Mixins Personales de uso diario 
+-------------------------------
+ */
+
+ @mixin Normalizando ($align:center,$margin:0px auto,$padding:0px,$text_decoracion:none){
+    
+    * {
+        margin: $margin;
+        padding: $padding;
+        text-align:$align;
+        text-decoration: $text_decoracion;
+     }
+    }
+    // Contenedor Maximo 
+    @mixin Contmax ($max:1170px,$width:96%,$margin:0 auto){
+        position: relative;
+        max-width:$max;
+        width: $width;
+        margin: $margin; 	
+    }
+    
+    // Creador de Columnas 
+    @mixin Columnas ($cantidad:1%,$margen:2%,$position: relative,$brbx:true){
+    position: $position;
+    width: (100 / $cantidad - $margen)#{'%'};
+    margin:$margen / 2#{'%'};
+    // Necesita box-sizing ?
+     @if $brbox {
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+     }
+    }
+    
+    // Contenedor relativo
+    @mixin PRelativo ($float:left,$width:null,$height:null ){
+        position: relative;
+        float: $float;
+         width: $width;
+         height: $height;		
+    }
+    
+    // Box-shadow recibe todas las propiedades
+    @mixin bshadow($shadows) {
+      -moz-box-shadow: $shadows;
+      -webkit-box-shadow: $shadows;
+      box-shadow: $shadows;
+    }
+    
+    // Border Radius
+    @mixin b-radius($radius:2px){
+        border-radius:$radius;
+    }
+    
+    
+    // Transition
+    @mixin transition ($propiedades){
+        -webkit-transition: $propiedades;
+        -moz-transition: $propiedades;
+        -ms-transition: $propiedades;
+        -o-transition: $propiedades;
+        transition: $propiedades;
+    }
+    
+    // Transform
+    @mixin transform ($propiedades){
+        -webkit-transform: $propiedades;
+        -moz-transform: $propiedades;
+        -ms-transform: $propiedades;
+        -o-transform: $propiedades;
+        transform: $propiedades;
+    }
+    
+    // Propiedades del Font 
+    @mixin font($family:Arial,$size:14px,$weight:400){
+        font-family: $family;
+        font-size: $size;
+        font-weight: $weight;
+    } 
+    
+    
+    // Opacity I9+
+    @mixin opc($cantidad:1){
+    opacity: $cantidad;
+    filter: alpha(opacity=$cantidad);
+    }
+     
+    
+    // media-s-max (media screen max-width)
+    @mixin media-s-max($width) {
+      @media only screen and (max-width: $width) {
+        @content;
+      }
+    }
+    
+    // media-s-min (media screen min-width)
+    @mixin media-s-min($width) {
+      @media only screen and (min-width: $width) {
+        @content;
+      }
+    }
+    
+    

@@ -1,0 +1,62 @@
+@import '../../../scss/style.scss';
+
+.table_list {
+    thead {
+        th{
+            font-family: $font;
+        }
+        td {
+            font-family: $font;
+  
+      }
+    }
+    tfoot {
+        @extend thead;
+    }
+    td {
+        font-family: $font;
+        font-weight: 300;      
+    }
+    
+}
+
+ .dataTables_info,
+ .dataTables_paginate,
+ .dataTables_length,
+ .dataTables_filter  {
+    font-family: $font;
+    font-weight: 300;      
+    }
+
+    .dataTables_wrapper{
+
+        .dataTables_length {
+            select {
+                height: 24px;
+                width: 50px;
+            }
+            
+        }
+    }
+    
+
+.btn_optiones {
+    position: relative;
+    float: left;
+    padding: 10px 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: #fff;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+.btn_borrar {
+    @extend .btn_optiones;
+    background: #ff3019;
+    background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+}
