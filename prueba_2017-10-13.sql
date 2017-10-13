@@ -40,7 +40,7 @@ LOCK TABLES `users` WRITE;
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `birthday`, `gender`)
 VALUES
-	(1,'Admin','admin@ikea.com','4badaee57fed5610012a296273158f5f','1994-03-04','M'),
+	(1,'Admin','admin@admin.com','4badaee57fed5610012a296273158f5f','1994-03-04','M'),
 	(5,'Dany','theorlan24@gmail.com','4badaee57fed5610012a296273158f5f','1994-00-00','M'),
 	(8,'Dany','theorlan28@gmail.com','4badaee57fed5610012a296273158f5f','1990-12-30','M');
 
